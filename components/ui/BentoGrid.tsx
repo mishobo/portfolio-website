@@ -5,6 +5,7 @@ import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
 import Lottie from "react-lottie";
 import animationData from "@/data/confetti.json"
+
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
