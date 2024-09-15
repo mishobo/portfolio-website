@@ -4,7 +4,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
 import Lottie from "react-lottie";
-import animationData from "@/data/konfetti.json"
+import animationData from "@/data/confetti.json"
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -91,7 +91,7 @@ export const BentoGridItem = ({
 
         {id === 2 && <GlobeDemo/>}
 
-        {id === 3 && (
+        {/* {id === 3 && (  
           <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
             <div className="flex flex-col gap-3 lg:gap-8">
               {['React', 'Next.js', 'TypeScript'].map((item) => 
@@ -113,9 +113,9 @@ export const BentoGridItem = ({
             )}
             </div>
           </div>
-        )}
+        )} */}
 
-        {id === 6 && (
+        {/* {id === 6 && (
           <div  className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
               <Lottie options={{
@@ -135,7 +135,7 @@ export const BentoGridItem = ({
             handleClick={handleCopy}
             />
           </div>
-        )}
+        )} */}
 
       </div>
     </div>
